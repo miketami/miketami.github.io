@@ -75,12 +75,48 @@ a:hover{
 
 .hotel_list{
   list-style-type: none;
-  font-size: 20px;
+  font-size: 16px;
 }
+
+.shuttle{
+  font-size: 16px;
+}
+
+.activities_list{
+  list-style-type: none;
+  font-size: 16px;
+}
+
+.activities_list a{
+  text-decoration: none;
+  color:navy;
+}
+
+.activities_list a:hover{
+  text-decoration: none;
+  border-bottom: none;
+  font-weight: bold;
+}
+
 
 .directions{
   font-size: 16px;
   line-height: 30px;
+}
+
+.direction_button{
+  color:navy;
+  background-color: #F6F6F6;
+  border-color: navy;
+  border-radius:0;
+}
+
+.direction_button:hover{
+  color:#F6F6F6;
+  background-color: navy;
+  border-color: #F6F6F6;
+  border-bottom: none;
+  border-radius:0;
 }
 
 #centering{
