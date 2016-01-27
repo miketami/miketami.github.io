@@ -231,6 +231,30 @@ a:hover{
     -o-background-size: cover;
 }
 
+.hotel_header{
+  display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/hotel_header.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.directions_header{
+  display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/directions_header.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .page_title {
     display: table-cell;
     text-align: center;
