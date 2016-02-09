@@ -102,6 +102,14 @@ a:hover{
 .directions{
   font-size: 16px;
   line-height: 30px;
+  list-style-type: none;
+  text-align: left;
+}
+
+ul.directions > li:before {
+  content: "–";
+  position: absolute;
+  margin-left: -1.1em;
 }
 
 .direction_button{
